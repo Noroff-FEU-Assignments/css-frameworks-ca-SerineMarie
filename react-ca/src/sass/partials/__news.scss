@@ -1,0 +1,52 @@
+.card-content .btn {
+  font-size: 1rem;
+  width: 90%;
+  height: 100%;
+  border: none;
+  position: relative;
+  text-transform: uppercase;
+  color: white;
+}
+
+.card-content .btn::after {
+  width: 15%;
+  height: 100%;
+  right: -11%;
+  top: 0;
+  border-radius: 0 0.25rem 0.25rem 0;
+  content: "";
+  background: $color-darkGray;
+  position: absolute;
+}
+
+.card {
+  width: 32rem;
+  margin: 4% 0% 5% 0%;
+  background: white;
+  @media (min-width: $medium-width) {
+    width: 18rem;
+  }
+}
+
+.card img {
+  border-radius: 0.25rem 0.25rem 0 0;
+}
+
+.page-item.active .page-link {
+  background: $color-primary;
+  color: white;
+  border: 1px solid $color-primary;
+}
+
+.page-link {
+  color: $color-primary;
+  border: 1px solid $color-primary;
+}
+
+.row {
+  col {
+    .card {
+      width: 100%;
+    }
+  }
+}

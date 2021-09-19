@@ -1,0 +1,57 @@
+.form-container {
+  background: $color-LightGray;
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.05);
+  border: none;
+  border-radius: 3px;
+  margin-top: 5%;
+}
+
+.form-group label {
+  color: $color-darkGray;
+}
+.form-container .form-control {
+  padding: 2%;
+}
+
+.form-group {
+  justify-content: center;
+  margin: 1% 10% 1% 10%;
+}
+
+.input-group-text {
+  color: white;
+  background: $color-gray;
+  padding: 27% 0% 30% 0%;
+  border: none;
+}
+
+.btn-submit-btn {
+  background: $color-darkGray;
+  color: white;
+}
+
+.form-check {
+  color: $color-darkGray;
+  background: none;
+  font-size: 0.8rem;
+  position: relative;
+
+  &-label {
+    margin-left: 2%;
+  }
+}
+
+.form-check::before {
+  width: 5%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  content: "";
+  background: $color-primary;
+  border-radius: 0.25rem;
+  position: absolute;
+}
+
+input {
+  display: none;
+}

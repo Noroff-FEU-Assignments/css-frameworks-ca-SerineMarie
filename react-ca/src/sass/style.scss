@@ -1,0 +1,38 @@
+//custom
+$color-primary: #e92569;
+$color-icon: #0a0a0a;
+$color-bg: #e5e5e5;
+
+$color-LightGray: #efefef;
+$color-gray: #c7c7c7;
+$color-darkGray: #767676;
+
+$font-primary: "Playfair Display", serif;
+
+$medium-width: 768px;
+$large-width: 992px;
+
+//bootstrap
+$theme-colors: (
+  "primary": $color-primary,
+  "dark": $color-darkGray,
+);
+
+$font-family-base: "Lato", sans-serif;
+
+$headings-color: $color-primary;
+
+$input-bg: white;
+
+@import "~bootstrap/scss/bootstrap";
+
+@import "partials/_layout";
+@import "partials/__footer";
+@import "partials/__form";
+@import "partials/__tab";
+@import "partials/__typography";
+@import "partials/__navigation";
+@import "partials/__contact";
+@import "partials/__news";
+@import "partials/__carousel";
+@import "partials/_accordion";

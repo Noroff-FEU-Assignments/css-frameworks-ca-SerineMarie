@@ -1,0 +1,43 @@
+.navbar {
+  background: $color-LightGray;
+  width: 100%;
+  padding: 1% 0 1% 0;
+
+  &-collapse {
+    margin-top: 5%;
+    @media (min-width: $medium-width) {
+      margin-top: 0%;
+    }
+  }
+
+  &-toggler {
+    border: none;
+  }
+}
+
+.nav-link {
+  color: $color-primary;
+
+  &.active {
+    background: white;
+    @media (min-width: $medium-width) {
+      border-radius: 5px 5px 5px 5px;
+    }
+  }
+}
+
+.navbar-light .navbar-brand {
+  color: $color-primary;
+}
+
+.search-btn-primary {
+  border-radius: 0 5px 5px 0;
+  margin-left: -2%;
+  color: white;
+}
+
+@media (min-width: $medium-width) {
+  .nav-form {
+    padding-left: 50%;
+  }
+}
